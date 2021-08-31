@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppGit
 {
-    class MemberC
+    class C
     {
 
-        public void Cheer(string name)
+        public void Cheer()
         {
-            Console.WriteLine(name);
+            Console.WriteLine("Czech is ma language bro!");
         }
     }
 
