@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppGit", "ConsoleAppGit\ConsoleAppGit.csproj", "{8D9D78C9-D9B8-4ECF-ADF1-465359FFB1A8}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppGit", "ConsoleAppGit\ConsoleAppGit.csproj", "{8D9D78C9-D9B8-4ECF-ADF1-465359FFB1A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{8D9D78C9-D9B8-4ECF-ADF1-465359FFB1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9D78C9-D9B8-4ECF-ADF1-465359FFB1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9D78C9-D9B8-4ECF-ADF1-465359FFB1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {490C7E27-5199-49CF-966C-D53B0368B246}
 	EndGlobalSection
 EndGlobal
