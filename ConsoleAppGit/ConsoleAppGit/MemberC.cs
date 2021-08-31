@@ -9,10 +9,10 @@ namespace ConsoleAppGit
     class C
     {
 
-        public void Cheer(string first, string second)
+        public void Cheer(string parameter)
         {
-            Console.WriteLine(first);
-            Console.WriteLine(second);
+            Console.WriteLine($"Cheers for the {parameter}");
+            
         }
     }
 
