@@ -4,9 +4,9 @@ namespace ConsoleAppGit
 {
     public class MemberB
     {
-        public static void Count()
+        public static void Count(int parameter)
         {
-            Console.WriteLine(1);
+            Console.WriteLine("Counting the countless" + parameter);
         }
     }
 }
