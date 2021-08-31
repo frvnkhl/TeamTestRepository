@@ -4,9 +4,9 @@ namespace ConsoleAppGit
 {
     public class FrankSpace
     {
-        public void Greet()
+        public void Greet(string greetings)
         {
-            Console.WriteLine("Greetings");
+            Console.WriteLine($"Greetings for {greetings}");
         }
     }
 }
