@@ -11,7 +11,7 @@ namespace ConsoleAppGit
 
         public void Cheer()
         {
-            Console.WriteLine("Team name");
+            Console.WriteLine("Czech is ma language bro!");
         }
     }
 
