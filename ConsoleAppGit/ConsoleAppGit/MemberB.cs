@@ -4,9 +4,9 @@ namespace ConsoleAppGit
 {
     public class MemberB
     {
-        public static void Count()
+        public static void Count(string paramToPrint)
         {
-            Console.WriteLine("Jenicek");
+            Console.WriteLine($"Jenicek and {paramToPrint}");
         }
     }
 }
