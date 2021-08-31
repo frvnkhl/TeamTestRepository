@@ -6,7 +6,7 @@ namespace ConsoleAppGit
     {
         public void Greet()
         {
-            Console.WriteLine("Greetings");
+            Console.WriteLine("Greetings!");
         }
     }
 }
