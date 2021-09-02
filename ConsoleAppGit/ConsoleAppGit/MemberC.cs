@@ -9,9 +9,9 @@ namespace ConsoleAppGit
     class C
     {
 
-        public void Cheer()
+        public void Cheer(string parameter)
         {
-            Console.WriteLine("Czech is ma language bro!");
+            Console.WriteLine($"Cheer for the {parameter}");
         }
     }
 
