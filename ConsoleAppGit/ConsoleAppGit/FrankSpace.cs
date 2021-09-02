@@ -4,9 +4,10 @@ namespace ConsoleAppGit
 {
     public class FrankSpace
     {
-        public void Greet(string greetings)
+
+        public void Greet(string currency, int price)
         {
-            Console.WriteLine($"Greetings for {greetings}");
+            Console.WriteLine($"Give me {currency}{price} now! I need that paper real quick");
         }
     }
 }
