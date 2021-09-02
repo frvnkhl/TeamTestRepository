@@ -11,8 +11,12 @@ namespace ConsoleAppGit
 
         public void Cheer(string parameter)
         {
+<<<<<<< HEAD
+            Console.WriteLine($"Cheer for the {parameter}");
+=======
             Console.WriteLine($"Cheers for the {parameter}");
             
+>>>>>>> main
         }
     }
 
